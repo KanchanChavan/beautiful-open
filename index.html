@@ -25,6 +25,8 @@ title: Home
         <div class="post-description">
           <h3 class="post-description-title"><a href="{{ post.url }}" class="post-description-link">{{ post.title }}</a></h3>
           <p class="post-description-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+          <h3 class="Comment"><a href="{{ comment.html }}"></a></h3>
+          <h3 class="Suggestion"><a href="{{ sugest.html }}"></a></h3>
         </div>
       </li>
     {% endfor %}
